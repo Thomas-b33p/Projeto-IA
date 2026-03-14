@@ -1,168 +1,50 @@
-# Projeto-Filmes
-Questionário sobre Filmes feito em HTML
+# 🎬 Projeto Filmes
 
-<!DOCTYPE html>
-<html lang="pt-BR">
+Este projeto é uma **página web em HTML sobre filmes**, desenvolvida como atividade prática da disciplina de **Autoria Web**.
 
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Filmes</title>
+O objetivo do projeto foi aplicar conceitos básicos de **estrutura HTML, formulários e estilização com CSS**.
 
-<style>
+---
 
-*{
-box-sizing: border-box;
-}
+## 🌐 Demonstração
 
-body{
-font-family: Arial, sans-serif;
-background-color:#f4f4f4;
-margin:0;
-padding:20px;
-}
+A página apresenta:
 
-h1{
-text-align:center;
-color:#333;
-}
+* Informações sobre o mundo dos filmes
+* Exemplos de onde os filmes podem ser assistidos
+* Um formulário para coletar opiniões dos usuários sobre filmes
 
-section{
-background:white;
-padding:20px;
-margin:20px auto;
-max-width:800px;
-border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
-}
+---
 
-h2{
-color:#444;
-}
+## 🧩 Tecnologias utilizadas
 
-input[type="text"],
-input[type="email"],
-input[type="number"],
-input[type="date"],
-textarea,
-select{
-width:100%;
-padding:8px;
-margin-top:5px;
-margin-bottom:15px;
-border:1px solid #ccc;
-border-radius:5px;
-}
+* **HTML5** – estrutura da página
+* **CSS3** – estilização e layout
 
-.opcoes label{
-display:block;
-margin-bottom:5px;
-}
+---
 
-button{
-background:#007BFF;
-color:white;
-border:none;
-padding:10px 20px;
-border-radius:5px;
-cursor:pointer;
-}
+## 📄 Estrutura do projeto
 
-button:hover{
-background:#0056b3;
-}
+O projeto utiliza elementos importantes da estrutura HTML, como:
 
-</style>
+* `section`
+* `article`
+* `form`
+* `input`
+* `select`
+* `textarea`
+* `fieldset`
+* `legend`
 
-</head>
+Também são utilizados diferentes tipos de **inputs**, como:
 
-<body>
+* `text`
+* `email`
+* `number`
+* `date`
+* `radio`
+* `checkbox`
 
-<h1>O Mundo dos Filmes</h1>
+---
 
-<section>
-
-<article>
-<h2>O que são filmes?</h2>
-<p>
-Filmes são produções audiovisuais que contam histórias por meio de imagens, sons e atuações.
-Eles transmitem emoções, ideias e mensagens e são uma das formas de entretenimento mais populares.
-</p>
-</article>
-
-<article>
-<h2>Onde os filmes são assistidos?</h2>
-<p>
-Hoje os filmes podem ser assistidos em cinemas, televisão ou plataformas de streaming
-usando celulares, computadores e smart TVs.
-</p>
-</article>
-
-</section>
-
-<section>
-
-<h2>Pesquisa sobre Filmes</h2>
-
-<form>
-
-<fieldset>
-<legend>Informações</legend>
-
-<label for="nome">Nome:</label>
-<input type="text" id="nome">
-
-<label for="email">Email:</label>
-<input type="email" id="email">
-
-<label for="idade">Idade:</label>
-<input type="number" id="idade">
-
-
-</fieldset>
-
-<fieldset>
-<legend>Opinião sobre Filmes</legend>
-
-<p>Você gosta de assistir filmes?</p>
-
-<div class="opcoes">
-<label><input type="radio" name="filme"> Sim</label>
-<label><input type="radio" name="filme"> Não</label>
-</div>
-
-<label>Por que?</label>
-<textarea rows="4"></textarea>
-
-<p>Onde você costuma assistir filmes?</p>
-
-<div class="opcoes">
-<label><input type="checkbox"> Cinema</label>
-<label><input type="checkbox"> Streaming</label>
-<label><input type="checkbox"> Televisão</label>
-<label><input type="checkbox"> Celular/Computador</label><br><br>
-</div>
-
-<label>Gênero favorito:</label>
-<select>
-<option>Ação</option>
-<option>Comédia</option>
-<option>Drama</option>
-<option>Terror</option>
-<option>Romance</option>
-<option>Ficção Científica</option>
-</select>
-
-<label>Fale sobre seu filme favorito:</label>
-<textarea rows="4"></textarea>
-
-</fieldset>
-
-<button type="submit">Enviar</button>
-
-</form>
-
-</section>
-
-</body>
-</html>
+##
